@@ -1,0 +1,2 @@
+# ClockMate
+Smart Chess Clock
