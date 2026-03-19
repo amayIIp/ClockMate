@@ -1,4 +1,4 @@
-# ♟️ ClockMate: The Over-The-Board Chess Digitizer
+# ClockMate: The Over-The-Board Chess Digitizer
 
 ClockMate isn't just another iOS chess clock—it's a bridge between physical (over-the-board) chess and the digital world. Built with **SwiftUI**, it tracks your remaining time to the millisecond while simultaneously converting your physical moves into a digital **PGN (Portable Game Notation)** file. Basically, no more frantically scribbling down moves on a scorecard while you're in severe time trouble.
 
@@ -8,14 +8,14 @@ ClockMate isn't just another iOS chess clock—it's a bridge between physical (o
 
 ---
 
-## ✨ Features That Actually Matter
+## Features That Actually Matter
 
 - **Real-Time PGN Generation** — Tracks every move entered and compiles a standard PGN file. Perfect for analyzing your blunders later with Stockfish.
 - **Sub-Millisecond Time Management** — Complex state-machine logic ensures the clock is brutally accurate.
 - **Move Input Interface** — A clean, distraction-free UI designed to register moves fast during blitz or bullet scrambles.
 - **Game State Tracking** — Keeps a continuous history of the board state so it always knows whose turn it is and what the timing controls are.
 
-## 🏗️ Technical Highlights
+## Technical Highlights
 
 - **State Management**: Handling rapid, async user inputs while maintaining a perfect chronometer required rigorous state management. It uses Swift's modern concurrency to decouple the UI thread from the timing engine.
 - **Data Parsing & Generation**: Transforming abstract move inputs into standardized, universally recognizable PGN structures.
@@ -23,7 +23,7 @@ ClockMate isn't just another iOS chess clock—it's a bridge between physical (o
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Xcode 14.0 or newer
@@ -39,13 +39,13 @@ ClockMate isn't just another iOS chess clock—it's a bridge between physical (o
 
 ---
 
-## 🔮 Future Roadmap (When time permits)
+## Future Roadmap (When time permits)
 
 - **Computer Vision Integration:** Why even tap a screen? Just point the camera at the board and let ML figure out the moves.
 - **Direct Cloud Sync:** Instantly sync games to Lichess or Chess.com for post-game analysis.
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes. Feel free to use the code, just promise me you won't use it to cheat.
